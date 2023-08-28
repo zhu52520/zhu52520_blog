@@ -50,15 +50,15 @@ sections:
       # C/C++, Python, MATLAB
       items:
         - name: C/C++
-          description: []
+          description: 1
           icon: C
           icon_pack: fas
         - name: Python
-          description: []
+          description: 1
           icon: python
           icon_pack: fab
         - name: Matlab
-          description: []
+          description: 1
           icon: camera-retro
           icon_pack: fas
 
@@ -134,14 +134,14 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: ''
+        - certificate_url: https://www.edx.org
           date_end: ''
           date_start: '2023-07'
           description: ''
           organization: IEEE Power and Energy Society General Meeting
-          organization_url: ''
+          organization_url: https://www.edx.org
           title: Power Network Fault Location Based on Voltage Magnitude Measurements and Sparse Estimation
-          url: ''
+          url: https://www.edx.org
 
         - certificate_url: https://www.edx.org
           date_end: ''
