@@ -41,25 +41,32 @@ sections:
       title: About Me
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+
+
+
   - block: features
     content:
-      title: Skills
+      title: Programming Language
+      # C/C++, Python, MATLAB
       items:
-        - name: R
-          description: 90%
-          icon: r-project
-          icon_pack: fab
-        - name: Statistics
-          description: 100%
-          icon: chart-line
+        - name: C/C++
+          description: []
+          icon: C
           icon_pack: fas
-        - name: Photography
-          description: 10%
+        - name: Python
+          description: []
+          icon: python
+          icon_pack: fab
+        - name: Matlab
+          description: []
           icon: camera-retro
           icon_pack: fas
+
+
+
   - block: experience
     content:
-      title: Experience
+      title: Research Experience
       # Date format for experience
       #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -69,33 +76,55 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Pos-Moore Microelectronics and Integrated Circuit Center
+          company: Supervised by Prof. Xufeng Kou
           company_url: ''
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          location: Shanghai, China
+          date_start: '2023-04'
           date_end: ''
           description: |2-
-              Responsibilities include:
+            * Completed CMOS tests to get the low-temperature performance of the 180nm IO circuit;
+            * Built models based on BSIM4 framework;
+            * Completed the test on GPU working at low temperatures;
+            * More research content is in progress.
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
+        - title: Power System Protection and Automation Laboratory
+          company: Supervised by Prof. Yu Liu
+          company_url: 'https://pspal.shanghaitech.edu.cn/index.html'
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: Shanghai, China
+          date_start: '2022-05'
+          date_end: ''
+          description: |2-
+            * Explored how to use limited measurement information to locate faults in power networks;
+            * Researched new algorithms to enable fault location after the measurement devices in the power grid lose time synchronization;
+            * Completed extensive numerical experiments with different fault types, impedances, and locations to prove the accuracy of the proposed method;
+            * Transformed the power system with renewable energy;
+            * Improved existing methods to enable fault location for power grids with new energy sources.
     design:
       columns: '2'
+
+  - block: collection
+    content:
+      title: Publications
+      text: |-
+        {{% callout note %}}
+        Quickly discover relevant content by [filtering publications](./publication/).
+        {{% /callout %}}
+      filters:
+        folders:
+          - publication
+        exclude_featured: true
+    design:
+      columns: '2'
+      view: citation
+
+
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      title: Publication
       subtitle:
       # Date format: https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -105,14 +134,15 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: ''
           date_end: ''
-          date_start: '2021-01-25'
+          date_start: '2023-07'
           description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          organization: IEEE Power and Energy Society General Meeting
+          organization_url: ''
+          title: Power Network Fault Location Based on Voltage Magnitude Measurements and Sparse Estimation
           url: ''
+
         - certificate_url: https://www.edx.org
           date_end: ''
           date_start: '2021-01-01'
@@ -121,16 +151,13 @@ sections:
           organization_url: https://www.edx.org
           title: Blockchain Fundamentals
           url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
+
     design:
       columns: '2'
+
+
+
+
   - block: collection
     id: posts
     content:
@@ -204,20 +231,7 @@ sections:
     design:
       columns: '2'
       view: card
-  - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
+
   - block: collection
     id: talks
     content:
