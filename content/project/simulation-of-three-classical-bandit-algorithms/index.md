@@ -9,6 +9,10 @@ links:
     name: Github
     icon_pack: fab
     icon: github
+  - url: uploads/simulation-of-three-classical-bandit-algorithms.pdf
+    name: Report
+    icon_pack: far
+    icon: file-pdf
 image:
   filename: 1693394843049.jpg
   focal_point: Smart
