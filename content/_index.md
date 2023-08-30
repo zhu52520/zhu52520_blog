@@ -60,10 +60,10 @@ sections:
   - block: collection
     content:
       title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
+      # text: |-
+      #   {{% callout note %}}
+      #   Quickly discover relevant content by [filtering publications](./publication/).
+      #   {{% /callout %}}
       filters:
         folders:
           - publication
@@ -74,39 +74,63 @@ sections:
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      title: 'Honors & Awards'
       subtitle:
       # Date format: https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
+      date_format: 2006
       # Accomplishments.
       #   Add/remove as many `item` blocks below as you like.
       #   `title`, `organization`, and `date_start` are the required parameters.
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: ''
           date_end: ''
-          date_start: '2021-01-25'
+          date_start: '2022-01-01'
           description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          organization: ShanghaiTech University
+          organization_url: ''
+          title: Merit Student
           url: ''
-        - certificate_url: https://www.edx.org
+        - certificate_url: ''
+          date_end: ''
+          date_start: '2022-01-01'
+          description: ''
+          organization: ShanghaiTech University
+          organization_url: ''
+          title: Second Prize Scholarship (Top 7%) 
+          url: ''
+        - certificate_url: ''
+          date_end: ''
+          date_start: '2022-01-01'
+          description: ''
+          organization: ShanghaiTech University
+          organization_url: ''
+          title: Outstanding Volunteer
+          url: ''
+        - certificate_url: ''
           date_end: ''
           date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
           description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          organization: ShanghaiTech University
+          organization_url: ''
+          title: Merit Student
+          url: ''
+        - certificate_url: ''
+          date_end: ''
+          date_start: '2021-01-01'
+          description: ''
+          organization: ShanghaiTech University
+          organization_url: ''
+          title: Second Prize Scholarship (Top 7%) 
+          url: ''
+        - certificate_url: ''
+          date_end: ''
+          date_start: '2021-01-01'
+          description: ''
+          organization: ShanghaiTech University
+          organization_url: ''
+          title: Outstanding Student Cadre
           url: ''
     design:
       columns: '2'
@@ -183,21 +207,6 @@ sections:
     design:
       columns: '2'
       view: card
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
   - block: contact
     id: contact
     content:
