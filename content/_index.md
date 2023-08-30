@@ -41,8 +41,8 @@ sections:
       items:
         - title: Pos-Moore Microelectronics and Integrated Circuit Center
           company: Supervised by Prof. Xufeng Kou
-          company_url: ''
-          company_logo: org-gc
+          company_url: 'http://pmicc.sist.shanghaitech.edu.cn/'
+          company_logo: pmicc
           location: Shanghai, China
           date_start: '2023-04-01'
           date_end: ''
@@ -50,7 +50,7 @@ sections:
         - title: Power System Protection and Automation Laboratory
           company: Supervised by Prof. Yu Liu
           company_url: 'https://pspal.shanghaitech.edu.cn/index.html'
-          company_logo: org-x
+          company_logo: cipes
           location: Shanghai, China
           date_start: '2022-05-01'
           date_end: ''
@@ -84,82 +84,55 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: 'https://www.shanghaitech.edu.cn/'
+        - certificate_url: ''
           date_end: ''
-          date_start: '2022-01-01'
+          date_start: '2022-06-01'
           description: ''
           organization: ShanghaiTech University
           organization_url: 'https://www.shanghaitech.edu.cn/'
           title: Merit Student
           url: ''
-        - certificate_url: 'https://www.shanghaitech.edu.cn/'
+        - certificate_url: ''
           date_end: ''
-          date_start: '2022-01-01'
+          date_start: '2022-06-01'
           description: ''
           organization: ShanghaiTech University
           organization_url: 'https://www.shanghaitech.edu.cn/'
           title: Second Prize Scholarship (Top 7%) 
           url: ''
-        - certificate_url: 'https://www.shanghaitech.edu.cn/'
+        - certificate_url: ''
           date_end: ''
-          date_start: '2022-01-01'
+          date_start: '2022-06-01'
           description: ''
           organization: ShanghaiTech University
           organization_url: 'https://www.shanghaitech.edu.cn/'
           title: Outstanding Volunteer
           url: ''
-        - certificate_url: 'https://www.shanghaitech.edu.cn/'
+        - certificate_url: ''
           date_end: ''
-          date_start: '2021-01-01'
+          date_start: '2021-06-01'
           description: ''
           organization: ShanghaiTech University
           organization_url: 'https://www.shanghaitech.edu.cn/'
           title: Merit Student
           url: ''
-        - certificate_url: 'https://www.shanghaitech.edu.cn/'
+        - certificate_url: ''
           date_end: ''
-          date_start: '2021-01-01'
+          date_start: '2021-06-01'
           description: ''
           organization: ShanghaiTech University
           organization_url: 'https://www.shanghaitech.edu.cn/'
           title: Second Prize Scholarship (Top 7%) 
           url: ''
-        - certificate_url: 'https://www.shanghaitech.edu.cn/'
+        - certificate_url: ''
           date_end: ''
-          date_start: '2021-01-01'
+          date_start: '2021-06-01'
           description: ''
           organization: ShanghaiTech University
           organization_url: 'https://www.shanghaitech.edu.cn/'
           title: Outstanding Student Cadre
           url: ''
     design:
-      columns: '2'
-  - block: collection
-    id: posts
-    content:
-      title: Recent Posts
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: compact
       columns: '2'
   - block: portfolio
     id: projects
@@ -188,6 +161,33 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
+  - block: collection
+    id: posts
+    content:
+      title: Recent Posts
+      subtitle: ''
+      text: ''
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 5
+      # Filter on criteria
+      filters:
+        folders:
+          - post
+        author: ""
+        category: ""
+        tag: ""
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        publication_type: ""
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
+      order: desc
+    design:
+      # Choose a layout view
+      view: compact
+      columns: '2'
   - block: markdown
     content:
       title: Gallery
