@@ -1,13 +1,14 @@
 ---
-title: Power Network Fault Location Based on Voltage Magnitude Measurements and
-  Sparse Estimation
+title: Improved Fault Phase Selection Scheme for Lines Terminated by Inverter Based Resources
 publication_types:
   - "1"
 authors:
-  - admin
-  - Yixiong Jia
+  - Yuhao Xie
   - Yu Liu
-  - Dayou Lu
+  - Yuan Nie
+  - Dian Lu
+  - admin
+  - Xiaodong Zheng
 publication: IEEE Power and Energy Society General Meeting 2023
 publication_short: PESGM 2023
 abstract: >-
@@ -24,7 +25,9 @@ abstract: >-
   impedances and locations prove that the proposed method can accurately
   determine the faulted line section with a large power network, and presents
   high fault location accuracy within the faulted line section using only
-  voltage magnitude measurements at a limited number of buses.
+  voltage
+
+  magnitude measurements at a limited number of buses.
 draft: false
 featured: false
 
