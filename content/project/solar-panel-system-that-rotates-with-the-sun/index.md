@@ -12,6 +12,10 @@ links:
     icon_pack: fab
     icon: github
     name: Github
+  - url: uploads/solar-panel-systemtthat-rotates-with-the-sun.pdf
+    name: Report
+    icon_pack: far
+    icon: file-pdf
 image:
   filename: 1693384512368.jpg
   focal_point: Smart

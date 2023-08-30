@@ -1,6 +1,5 @@
 ---
 title: "Unknown Coaxial Cable Dielectric Constant Measurement "
-subtitle: ""
 tags:
   - Software Simulation
   - Course Project
@@ -19,6 +18,6 @@ links:
     icon: file-pdf
 image:
   filename: 1.png
-  focal_point: CENTER
+  focal_point: Smart
   preview_only: false
 ---

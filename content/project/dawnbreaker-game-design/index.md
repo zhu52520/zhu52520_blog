@@ -1,5 +1,8 @@
 ---
 title: Dawnbreaker Game Design
+tags:
+  - Programming
+  - Course Project
 date: 2022-06-15T11:21:00.000Z
 summary: The Course Project of Introduction to Programming
 draft: false
@@ -9,6 +12,10 @@ links:
     name: Github
     icon_pack: fab
     icon: github
+  - url: uploads/dawnbreaker-game-design.zip
+    name: Game Demo
+    icon_pack: fas
+    icon: game
 image:
   filename: 1693394584813.png
   focal_point: Smart
