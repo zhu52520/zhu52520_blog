@@ -29,6 +29,10 @@ abstract: >-
   magnitude measurements at a limited number of buses.
 draft: false
 featured: false
+
+url_pdf: 'power-network-fault-location-based-on-voltage-magnitude-measurements-and-sparse-estimation.pdf'
+url_poster: 'poster.pdf'
+
 image:
   filename: featured
   focal_point: Smart
