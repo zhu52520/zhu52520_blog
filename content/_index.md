@@ -42,7 +42,7 @@ sections:
         - title: Pos-Moore Microelectronics and Integrated Circuit Center
           company: Supervised by Prof. Xufeng Kou
           company_url: 'http://pmicc.sist.shanghaitech.edu.cn/'
-          company_logo: org-gc
+          company_logo: pmicc
           location: Shanghai, China
           date_start: '2023-04-01'
           date_end: ''
@@ -50,7 +50,7 @@ sections:
         - title: Power System Protection and Automation Laboratory
           company: Supervised by Prof. Yu Liu
           company_url: 'https://pspal.shanghaitech.edu.cn/index.html'
-          company_logo: org-gc
+          company_logo: pspal
           location: Shanghai, China
           date_start: '2022-05-01'
           date_end: ''

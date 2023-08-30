@@ -15,7 +15,7 @@ links:
   - url: uploads/dawnbreaker-game-design.zip
     name: Game Demo
     icon_pack: fas
-    icon: game
+    icon: gamepad
 image:
   filename: 1693394584813.png
   focal_point: Smart

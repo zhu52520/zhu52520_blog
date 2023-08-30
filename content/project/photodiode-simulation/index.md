@@ -12,7 +12,7 @@ links:
     name: Github
     icon_pack: fab
     icon: github
-  - url: uploads/photodiode-simulation
+  - url: uploads/photodiode-simulation.pdf
     name: Report
     icon_pack: far
     icon: file-pdf
