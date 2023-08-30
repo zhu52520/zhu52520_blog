@@ -3,7 +3,7 @@ title: Neural Network Based Denoising of Photoacoustic Images
 tags:
   - Software Simulation
   - Course Project
-date: 2023-08-30T11:24:48.366Z
+date: 2022-01-08T11:24:48.366Z
 summary: The Course Project of Analog Circuits
 draft: false
 featured: false
