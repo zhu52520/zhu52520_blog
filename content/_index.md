@@ -84,52 +84,52 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: ''
+        - certificate_url: 'https://www.shanghaitech.edu.cn/'
           date_end: ''
           date_start: '2022-01-01'
           description: ''
           organization: ShanghaiTech University
-          organization_url: ''
+          organization_url: 'https://www.shanghaitech.edu.cn/'
           title: Merit Student
           url: ''
-        - certificate_url: ''
+        - certificate_url: 'https://www.shanghaitech.edu.cn/'
           date_end: ''
           date_start: '2022-01-01'
           description: ''
           organization: ShanghaiTech University
-          organization_url: ''
+          organization_url: 'https://www.shanghaitech.edu.cn/'
           title: Second Prize Scholarship (Top 7%) 
           url: ''
-        - certificate_url: ''
+        - certificate_url: 'https://www.shanghaitech.edu.cn/'
           date_end: ''
           date_start: '2022-01-01'
           description: ''
           organization: ShanghaiTech University
-          organization_url: ''
+          organization_url: 'https://www.shanghaitech.edu.cn/'
           title: Outstanding Volunteer
           url: ''
-        - certificate_url: ''
+        - certificate_url: 'https://www.shanghaitech.edu.cn/'
           date_end: ''
           date_start: '2021-01-01'
           description: ''
           organization: ShanghaiTech University
-          organization_url: ''
+          organization_url: 'https://www.shanghaitech.edu.cn/'
           title: Merit Student
           url: ''
-        - certificate_url: ''
+        - certificate_url: 'https://www.shanghaitech.edu.cn/'
           date_end: ''
           date_start: '2021-01-01'
           description: ''
           organization: ShanghaiTech University
-          organization_url: ''
+          organization_url: 'https://www.shanghaitech.edu.cn/'
           title: Second Prize Scholarship (Top 7%) 
           url: ''
-        - certificate_url: ''
+        - certificate_url: 'https://www.shanghaitech.edu.cn/'
           date_end: ''
           date_start: '2021-01-01'
           description: ''
           organization: ShanghaiTech University
-          organization_url: ''
+          organization_url: 'https://www.shanghaitech.edu.cn/'
           title: Outstanding Student Cadre
           url: ''
     design:
