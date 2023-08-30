@@ -11,25 +11,27 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: features
-    content:
-      title: Skills
-      items:
-        - name: R
-          description: 90%
-          icon: r-project
-          icon_pack: fab
-        - name: Statistics
-          description: 100%
-          icon: chart-line
-          icon_pack: fas
-        - name: Photography
-          description: 10%
-          icon: camera-retro
-          icon_pack: fas
+  # - block: features
+  #   content:
+  #     title: Skills
+  #     items:
+  #       - name: R
+  #         description: 90%
+  #         icon: r-project
+  #         icon_pack: fab
+  #       - name: Statistics
+  #         description: 100%
+  #         icon: chart-line
+  #         icon_pack: fas
+  #       - name: Photography
+  #         description: 10%
+  #         icon: camera-retro
+  #         icon_pack: fas
   - block: experience
     content:
-      title: Experience
+      title: |2-
+        Research
+        Experience
       # Date format for experience
       #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -55,6 +57,63 @@ sections:
           date_start: '2022-05-01'
           date_end: ''
           description: Fully explore the redundancy of fault localization problems based on a limited number of measurements.
+    design:
+      columns: '2'
+  - block: experience
+    content:
+      title: |2-
+        Teaching
+        Experience
+      # Date format for experience
+      #   Refer to https://wowchemy.com/docs/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: Course of Introduction to Logic Circuit
+          company:  Wellington College International Shanghai
+          company_url: 'https://sh-zh.wellingtoncollege.cn/'
+          company_logo: wellington
+          location: Shanghai, China
+          date_start: '2023-01-01'
+          date_end: ''
+          description: |2-
+            Personalized course content for each student to suit their individual learning pace and fundamental knowledge level and provided full English language instruction;
+            Developed project themes based on Multisim and guided students to self-expand.
+        - title: Course of Digital Circuit
+          company: No.2 High School of East China Normal University
+          company_url: 'http://www.hsefz.cn/'
+          company_logo: hsefz
+          location: Shanghai, China
+          date_start: '2021-09-01'
+          date_end: ''
+          description: |2-
+            Adjusted the course content to make it accessible to high school students;
+            Designed experiment content, including simulation in Multisim and breadboard construction;
+            Guided students to explore independently, and introduced PCB drawing-related content.
+        - title: Course of Signals and Systems
+          company: ShanghaiTech University
+          company_url: 'https://www.shanghaitech.edu.cn/'
+          company_logo: shanghaitech_university
+          location: Shanghai, China
+          date_start: '2022-02-01'
+          date_end: '2022-06-01'
+          description: |2-
+            Produced and graded homework and exams;
+            Held practice sessions and answered question.
+        - title: Course of Electric Circuit
+          company: ShanghaiTech University
+          company_url: 'https://www.shanghaitech.edu.cn/'
+          company_logo: shanghaitech_university
+          location: Shanghai, China
+          date_start: '2021-09-01'
+          date_end: '2022-01-01'
+          description: |2-
+            Produced and graded homework and exams;
+            Held practice sessions and answered question.
     design:
       columns: '2'
   - block: collection
