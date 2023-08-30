@@ -13,11 +13,7 @@ links:
     name: Github
     icon_pack: fab
     icon: github
-  - url: content\project\unknown-coaxial-cable-dielectric-constant-measurement\final_report.pdf
-    name: Report
-    icon_pack: far
-    icon: file-pdf
-  - url: content\project\unknown-coaxial-cable-dielectric-constant-measurement\project_requirements.pdf
+  - url: upload/unknown-coaxial-cable-dielectric-constant-measurement.pdf
     name: Report
     icon_pack: far
     icon: file-pdf
