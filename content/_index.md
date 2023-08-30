@@ -92,8 +92,8 @@ sections:
           tag: '*'
         - name: Software Simulation
           tag: Software Simulation
-        - name: Embbed System
-          tag: Embbed System
+        - name: Embedded System
+          tag: Embedded System
         - name: Programming
           tag: Programming
         - name: Course Project

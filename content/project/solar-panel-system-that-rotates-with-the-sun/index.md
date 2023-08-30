@@ -2,7 +2,7 @@
 title: Solar Panel System that Rotates with the Sun
 summary: The Course Project of Introduction to Information Science and Technology.
 tags:
-  - Embbed System
+  - Embedded System
   - Course Project
 date: 2021-01-29T08:29:00.000Z
 draft: false

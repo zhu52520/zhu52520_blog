@@ -1,7 +1,7 @@
 ---
 title: Media Bluetooth Keyboard Development Based on ESP32C3
 tags:
-  - Embbed System
+  - Embedded System
   - Self-motivation Project
 date: 2022-08-28T09:08:00.000Z
 draft: false
