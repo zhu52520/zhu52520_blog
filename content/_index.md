@@ -28,7 +28,7 @@ sections:
   #         icon: camera-retro
   #         icon_pack: fas
   - block: experience
-  - id: research
+    id: research
     content:
       title: |2-
         Research
@@ -109,7 +109,7 @@ sections:
       # For Showcase view, flip alternate rows?
       flip_alt_rows: true
   - block: accomplishments
-  - id: honors
+    id: honors
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Honors & Awards'
@@ -233,7 +233,7 @@ sections:
   - block: portfolio
     id: daily
     content:
-      title: Daliy Life
+      title: Daily Life
       filters:
         folders:
           - daily
