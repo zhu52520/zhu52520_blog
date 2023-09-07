@@ -28,6 +28,7 @@ sections:
   #         icon: camera-retro
   #         icon_pack: fas
   - block: experience
+  - id: research
     content:
       title: |2-
         Research
@@ -60,6 +61,7 @@ sections:
     design:
       columns: '2'
   - block: collection
+    id: publications
     content:
       title: Publications
       # text: |-
@@ -107,6 +109,7 @@ sections:
       # For Showcase view, flip alternate rows?
       flip_alt_rows: true
   - block: accomplishments
+  - id: honors
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Honors & Awards'
@@ -170,6 +173,7 @@ sections:
     design:
       columns: '2'
   - block: experience
+    id: teaching
     content:
       title: |2-
         Teaching
@@ -226,41 +230,66 @@ sections:
             Held practice sessions and answered question.
     design:
       columns: '2'
-  - block: collection
-    id: posts
+  - block: portfolio
+    id: daily
     content:
-      title: Recent Posts
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
+      title: Daliy Life
       filters:
         folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+          - daily
+      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+      default_button_index: 0
+      # Filter toolbar (optional).
+      # Add or remove as many filters (`filter_button` instances) as you like.
+      # To show all items, set `tag` to "*".
+      # To filter by a specific tag, set `tag` to an existing tag name.
+      # To remove the toolbar, delete the entire `filter_button` block.
+      buttons:
+        - name: All
+          tag: '*'
+        - name: a
+          tag: a
     design:
-      # Choose a layout view
-      view: compact
-      columns: '2'
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
+      view: showcase
+      # For Showcase view, flip alternate rows?
+      flip_alt_rows: true
+  # - block: collection
+  #   id: posts
+  #   content:
+  #     title: Recent Posts
+  #     subtitle: ''
+  #     text: ''
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 5
+  #     # Filter on criteria
+  #     filters:
+  #       folders:
+  #         - post
+  #       author: ""
+  #       category: ""
+  #       tag: ""
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #       publication_type: ""
+  #     # Choose how many pages you would like to offset by
+  #     offset: 0
+  #     # Page order: descending (desc) or ascending (asc) date.
+  #     order: desc
+  #   design:
+  #     # Choose a layout view
+  #     view: compact
+  #     columns: '2'
+  # - block: markdown
+  #   content:
+  #     title: Gallery
+  #     subtitle: ''
+  #     text: |-
+  #       {{< gallery album="demo" >}}
+  #   design:
+  #     columns: '1'
   # - block: contact
   #   id: contact
   #   content:

@@ -2,11 +2,13 @@
 title: Yuxuan Zhu
 role: Undergraduate Student
 avatar_filename: avatar.jpg
-bio: My research interests include xxxxxxxxxxxxxxxxxxxxxxxxx.
+bio: An undergraduate student at ShanghaiTech University.
 interests:
-  - abc
-  - efg
-  - hij
+  - Knowledge combined with practice
+  - Hands-on operation
+  - Tea
+  - Calligraphy
+  - Ornaments
 social:
   - icon: envelope
     icon_pack: fas
@@ -37,5 +39,4 @@ first_name: Yuxuan
 email: ""
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"}
+Yuxuan Zhu is an undergraduate student at ShanghaiTech University, majoring in Electronic Information Engineering. On campus, he has completed my academic life to a high standard and has a GPA of 3.9. At the same time, he served as an undergraduate research assistant at the TALENT and PSPAL laboratories. Off campus, he concurrently serves as a teaching assistant for multiple courses. In addition, he enjoys his life, especially by introducing some traditional Chinese lifestyle habits into it.
