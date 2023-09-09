@@ -247,8 +247,14 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: a
-          tag: a
+        - name: Tea
+          tag: Tea
+        - name: Beads
+          tag: Beads
+        - name: Calligraphy
+          tag: Calligraphy
+        - name: Tea
+          tag: Tea
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'

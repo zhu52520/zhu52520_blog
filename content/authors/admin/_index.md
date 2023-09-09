@@ -8,7 +8,7 @@ interests:
   - Hands-on operation
   - Tea
   - Calligraphy
-  - Ornaments
+  - Beads
 social:
   - icon: envelope
     icon_pack: fas
