@@ -124,6 +124,14 @@ sections:
       items:
         - certificate_url: ''
           date_end: ''
+          date_start: '2023-08-01'
+          description: ''
+          organization: National Undergraduate Electronics Design Contest
+          organization_url: 'https://www.nuedc-training.com.cn/'
+          title: Second Prize
+          url: ''
+        - certificate_url: ''
+          date_end: ''
           date_start: '2022-06-01'
           description: ''
           organization: ShanghaiTech University

@@ -8,7 +8,7 @@ date: 2020-07-20T11:21:00.000Z
 summary: Upon graduating from high school, I gathered all of my works from that period. This compilation includes classical poems, lyrics, ancient prose, as well as the seals I carved. I meticulously organized these contents into a book titled "LingRan's High School Collection," with 'LingRan' being my pen name. I independently handled the writing, typesetting, and design of this book, then had it printed at a local print shop. It serves as a comprehensive reflection and summary of my high school journey. Through a vertical comparison of these works, I am able to revisit the developmental milestones of my high school years and engage in introspection. 
 draft: false
 featured: false
-link:
+links:
   - url: uploads/lingrans-high-school-collection.pdf
     name: pdf
     icon_pack: far
