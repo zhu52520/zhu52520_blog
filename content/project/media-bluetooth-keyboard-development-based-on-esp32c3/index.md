@@ -1,5 +1,6 @@
 ---
 title: Media Bluetooth Keyboard Development Based on ESP32C3
+summary: A self-developed Bluetooth multimedia keyboard with customizable features such as volume adjustment, previous song and next song.
 date: 2022-08-28T09:08:00.000Z
 draft: false
 featured: false
