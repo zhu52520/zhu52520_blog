@@ -31,8 +31,8 @@ abstract: >-
 draft: false
 featured: false
 
-url_pdf: 'paper.pdf'
-url_poster: 'poster.pdf'
+url_pdf: 'publication/improved-fault-phase-selection-scheme-for-lines-terminated-by-inverter-based-resources/paper.pdf'
+url_poster: 'publication/improved-fault-phase-selection-scheme-for-lines-terminated-by-inverter-based-resources/poster.pdf'
 
 image:
   filename: featured

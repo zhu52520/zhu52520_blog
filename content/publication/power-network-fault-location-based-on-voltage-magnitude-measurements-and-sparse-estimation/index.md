@@ -28,8 +28,8 @@ abstract: >-
 draft: false
 featured: false
 
-url_pdf: 'paper.pdf'
-url_poster: 'poster.pdf'
+url_pdf: 'publication/power-network-fault-location-based-on-voltage-magnitude-measurements-and-sparse-estimation/paper.pdf'
+url_poster: 'publication/power-network-fault-location-based-on-voltage-magnitude-measurements-and-sparse-estimation/poster.pdf'
 
 image:
   filename: featured

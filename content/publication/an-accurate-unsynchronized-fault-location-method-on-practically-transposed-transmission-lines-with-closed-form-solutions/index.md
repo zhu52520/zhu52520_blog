@@ -26,7 +26,7 @@ abstract: >-
 draft: false
 featured: false
 
-url_pdf: 'paper.pdf'
+url_pdf: 'publication/an-accurate-unsynchronized-fault-location-method-on-practically-transposed-transmission-lines-with-closed-form-solutions/paper.pdf'
 
 image:
   filename: featured
